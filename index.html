@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='lt'>
+    <head>
+        <style>
+            table{
+              width:20%;
+              margin:100px auto auto auto;
+            }
+            header{
+                background-color: whitesmoke;
+                padding: 50px;
+                border-radius: 5%;
+            }
+            footer{
+                background-color: whitesmoke;
+                padding: 50px;
+                border-radius: 5%;
+                margin-top: 350px;
+            }
+            table{
+                border: 2px solid grey;
+                padding: 20px;
+            }
+            form{
+              padding: 20px;
+            }
+            a{
+               padding-left: 50px;
+            }
+            input{
+                margin:  10px;
+            }
+        </style>
+    </head>
+    <body>
+    <header></header>
+        <form action="apieVart.php" method="post">
+            <table>
+                <tr><th colspan="2">Prisijungimas prie sistemos</th></tr>
+                <tr><td>El. pastas</td><td><input type="text" name="email" /></td></tr>
+                <tr><td>Slaptazodis</td><td><input type="password" name="pSlaptazodis" /></td></tr>
+                <tr><td><button type="submit" name="prisijungti" value="Prisijungti">Prisijungti</button></td><td><a name="registracija" href='http://localhost/Aiste/registracija.php'>Registruotis</a></td></tr>
+            </table>
+        </form>
+    <footer></footer>
+    </body>
+</html>
